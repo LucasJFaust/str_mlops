@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title= "Insurence Prediction",
-    page_icon= "/home/faust/Projetos/DNC/Mes-06/str_mlops/img/stethoscope.png",
+    page_icon= "img/stethoscope.png",
 )
 
 st.sidebar.header('Project Discription')
@@ -10,7 +10,7 @@ st.sidebar.header('Project Discription')
 st.write('# Bem vindo ao Aplicativo de Predição de Seguros de Saúde')
 st.write('\n\n')
 
-st.image('/home/faust/Projetos/DNC/Mes-06/str_mlops/img/health_insurance_img.jpg')
+st.image('img/health_insurance_img.jpg')
 st.write('\n\n')
 
 st.markdown(
