@@ -11,7 +11,7 @@ st.markdown("Prevendo o gasto com o seguro de saúde com base em um arquivo csv:
 
 # -- Model -- #
 
-with open('../models/model.pkl', 'rb') as model_file:
+with open('./models/model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 data = st.file_uploader('Carregue seu arquivo')
